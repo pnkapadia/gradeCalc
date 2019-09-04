@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Red+Hat+Text&display=swap');
+
+body {
+    font-family: 'Red Hat Text', sans-serif;
+    background-color: #c9d6ff; /* fallback for old browsers */
+    background-color: -webkit-linear-gradient(to bottom, #c9d6ff, #e2e2e2); /* Chrome 10-25, Safari 5.1-6 */
+    background-color: linear-gradient(to bottom, #c9d6ff, #e2e2e2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#after_submit {
+    visibility: hidden;
+}
+#quiz{
+    visibility: visible;
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+    padding: 15px;
+    background: white;
+  }
+
+table {
+    font-size: 18px;
+    width: 100%;
+    background: white;
+}
+
+button {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 14px;
+}
+
+button:hover {
+    outline: #333 solid 2px;
+}
+
+#compute_button {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 14px;
+}
+
+#compute_button:hover {
+    outline: rgb(95, 94, 94) solid 2px;
+}
+
+#reset_button {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 14px;
+}
+
+#reset_button:hover {
+    outline: #333 solid 2px;
+}
+
+input[type="number"] {
+    width: 100%;
+}
+
+.num {
+    text-align: center;
+}
+
+p {
+    font-size: 15px;
+}
+
+.floating {
+    margin: auto;
+  width: 50%;
+  height: 100%;
+  box-shadow: 10px 10px 5px grey;
+  -webkit-box-shadow: 10px 10px 5px grey;
+  -moz-box-shadow: 10px 10px 5px grey;
+  -ms-box-shadow: 10px 10px 5px grey;
+  padding: 50px;
+  background: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+hr {
+    color: rgb(110, 110, 110);
+    width: 60%;
+}

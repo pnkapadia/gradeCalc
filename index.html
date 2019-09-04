@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<head>
+    <title>Grade Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+<h1>Prachi's Grade Calculator</h1>
+<hr><br>
+
+<div class="floating"> 
+<form id="quiz" name="quiz">
+<table id="myTable">
+<tbody>
+    <tr>
+        <th>Assignment</th>
+        <th>Grade</th>
+        <th>Weight/Percent</th>
+    </tr>
+    <tr id="someRow">
+        <td class="num">1</td>
+        <td><input id="grade1" type="number" name="grade" max="100" min="1"></td>
+        <td><input id="weight1" type="number" name="weight" max="100" min="1"></td>
+    </tr>
+    <tr id="someRow">
+        <td class="num">2</td>
+        <td><input id="grade2" type="number" name="grade" max="100" min="1"></td>
+        <td><input id="weight2" type="number" name="weight" max="100" min="1"></td>
+    </tr>
+    <tr id="someRow">
+        <td class="num">3</td>
+        <td><input id="grade3" type="number" name="grade" max="100" min="1"></td>
+        <td><input id="weight3" type="number" name="weight" max="100" min="1"></td>
+    </tr>
+    <tr id="someRow">
+        <td class="num">4</td>
+        <td><input id="grade4" type="number" name="grade" max="100" min="1"></td>
+        <td><input id="weight4" type="number" name="weight" max="100" min="1"></td>
+    </tr>
+    <tr id="someRow">
+        <td class="num">5</td>
+        <td><input id="grade5" type="number" name="grade" max="100" min="1"></td>
+        <td><input id="weight5" type="number" name="weight" max="100" min="1"></td>
+    </tr>
+</tbody>
+</table>
+
+<br>
+<input type="button" id="compute_button" value="Compute" onclick="check()">
+<input type="button" id="reset_button" value="Reset" onclick="reset()">
+
+</form>
+</div>
+
+<br>
+<div id="after_submit">
+        <div id="result"></div>
+        
+</div>
+    
+
+<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
+<script type='text/javascript' src="main.js"></script>
+</body>
+</html>
